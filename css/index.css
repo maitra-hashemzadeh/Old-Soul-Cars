@@ -25,7 +25,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: rgb(115, 111, 111);
+  color: rgb(102, 96, 96);
 }
 @media (max-width: 576px) {
   .start {
@@ -46,9 +46,9 @@ a {
     margin-left: -180px;
   }
 }
-.dass{
-    width: auto;
-    height:900px ;
+.dass {
+  width: auto;
+  height: 900px;
 }
 h1 {
   font-size: 50px;
@@ -164,9 +164,93 @@ h2 {
   margin-left: 20px;
   margin-top: 20px;
 }
-
+.wiwi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.doll {
+  font-size: 40px;
+}
+.autos {
+  font-size: 18px;
+}
+.jack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.rain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlz-Bk66DiD0fhV-pUf_JJgqRhU4lofzKjfw&s);
+  transition: all 1s 1s;
+}
+.rain:hover{
+   transform: rotate(25deg);
+}
+.happy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-style: italic;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpub7tdR0TwnjNYCIIM5k8c-pE5DSAKQdyGQ&s);
+  transition: all 1s 1s;
+}
+.happy:hover{
+  transform: rotate(15deg);
+}
+.smile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-style: italic;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitDy9ixMr1GWqU-i8Mm2BQ2kI4V9ohYT4Ow&s);
+  transition: all 1s 1s;
+}
+.smile:hover{
+  transform: rotate(-15deg);
+}
+.joy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSo9LjUhyaI-lwUI_5wYXu_Gk7HK-P2Xkq9w&s);
+  transition: all 1s 1s;
+}
+.joy:hover{
+  transform: rotate(-25deg);
+}
 @media (max-width: 576px) {
-  .dass{
+  .dass {
     height: 280vh;
   }
   .new:hover {
@@ -179,10 +263,10 @@ h2 {
   h1 {
     font-size: 28px;
   }
-  p{
+  p {
     font-size: 15px;
   }
-  ul{
+  ul {
     font-size: 10px;
   }
   .old {
@@ -213,13 +297,19 @@ h2 {
   .Ford {
     width: 500px;
   }
+  .jack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
 .footer {
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: end;
-  margin-top: 800px;
+  margin-top: 1100px;
   background-color: black;
   color: white;
   font-size: 20px;
@@ -232,11 +322,11 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: start;
-    font-size: 12px;
-    width: 460px;
+    font-size: 15px;
+    width: 540px;
     height: 50px;
-    margin-left:20px;
-    margin-top: 900px;
+    margin-left: 20px;
+    margin-top: 1400px;
     padding-top: 20px;
   }
 }
