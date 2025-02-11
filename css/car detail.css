@@ -124,6 +124,48 @@ h2 {
   margin-top: 180px;
   position: relative;
 }
+.data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 900px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.shap{
+  background-image: url(https://images.stockcake.com/public/0/2/f/02f7762d-37b2-4b38-819d-31add585a69c_large/vintage-car-elegance-stockcake.jpg);
+  width: 640px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s 1s;
+}
+.shaps{
+  background-image: url(https://resources.turo.com/f/81934/1534x840/c3d117c2cb/us_classic_rental_description-2x.jpg/m/);
+  width: 640px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s 1s;
+}
+.glass{
+  margin-top: 250px;
+  margin-left: 30px;
+  font-size: 50px;
+  color: beige;
+}
+.hack{
+  font-size: 20px;
+  margin-left: 35px;
+  margin-top: 20px;
+  color: beige;
+}
+.shap:hover{
+  transform: perspective(100px) scale(0.75);
+}
+.shaps:hover{
+  transform: perspective(100px) scale(0.75);
+}
 @media (max-width: 576px) {
   .meta {
     display: flex;
@@ -131,9 +173,9 @@ h2 {
     position: absolute;
   }
   .autocar {
-    width: 320px;
-    height: 100px;
-    margin-left: 40px;
+    width: 460px;
+    height: 200px;
+    margin-left: 20px;
     margin-top: 780px;
   }
   h5 {
@@ -166,13 +208,26 @@ h2 {
   .orange {
     font-size: 20px;
   }
+  .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .shap{
+    width: 460px;
+    margin-top: 200px;
+  }
+  .shaps{
+    width: 460px;
+    margin-top: 20px;
+  }
 }
 .footer {
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: end;
-  margin-top: 800px;
+  margin-top: 200px;
   background-color: black;
   color: white;
   font-size: 20px;
@@ -185,11 +240,11 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: start;
-    font-size: 10px;
-    width: 360px;
+    font-size: 15px;
+    width: 520px;
     height: 50px;
     margin-left:20px;
-    margin-top: 900px;
+    margin-top: 100px;
     padding-top: 20px;
   }
 }
